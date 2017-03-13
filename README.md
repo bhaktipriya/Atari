@@ -22,11 +22,15 @@ We use a CNN which takes in the State S, and predicts the Q values for all the p
 
 ## Experience Replay:
 
-During gameplay all the experiences <_ s, a, r, s’_ > are stored in a replay memory. We use these minibatches to train the network, which makes the training task similar to usual supervised learning.
+During gameplay all the experiences < s, a, r, s’> are stored in a replay memory. We use these minibatches to train the network, which makes the training task similar to usual supervised learning.
 
-## ![Screenshot from 2017-03-13 12:06:54](https://bhaktipriya96.files.wordpress.com/2017/03/screenshot-from-2017-03-13-120654.png)Exploitation vs Exploration:
+![Screenshot from 2017-03-13 12:06:54.png](https://bhaktipriya96.files.wordpress.com/2017/03/screenshot-from-2017-03-13-120654.png)
+
+## Exploitation vs Exploration:
 
 ![Screenshot from 2017-03-13 12:08:36](https://bhaktipriya96.files.wordpress.com/2017/03/screenshot-from-2017-03-13-120836.png)
+
+
 
 
 ## Results:
