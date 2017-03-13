@@ -14,9 +14,11 @@ In Q-learning we define a function _Q(s, a)_ representing the maximum discounted
 
 We use a CNN which takes in the State S, and predicts the Q values for all the possible actions from that state S.  ![Screenshot from 2017-03-12 16:12:20](https://bhaktipriya96.files.wordpress.com/2017/03/screenshot-from-2017-03-12-161220.png)   The network architecture that DeepMind used is as follows: ![Screen Shot 2015-12-21 at 11.23.28 AM](https://www.nervanasys.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-21-at-11.23.28-AM.png) This is a classical convolutional neural network with three convolutional layers, followed by two fully connected layers. There are no pooling layers since pooling layers buy us translation invariance, which is not something that we desire when we train our bots for games. Input to the network are four 84×84 grayscale game screens.  We use 4 recent screens as the environment state. Outputs of the network are Q-values for each possible action. This is a regression task, since Q-values can be any real values . The loss function of this network is a simple squared error loss. ![](https://www.nervanasys.com/wp-content/uploads/2015/12/formula.png)  
 
+
 ## Training the network:
 
   ![Screenshot from 2017-03-12 17:28:24.png](https://bhaktipriya96.files.wordpress.com/2017/03/screenshot-from-2017-03-12-172824.png)  
+
 
 ## Experience Replay:
 
@@ -25,6 +27,7 @@ During gameplay all the experiences <_ s, a, r, s’_ > are stored in a replay
 ## ![Screenshot from 2017-03-13 12:06:54](https://bhaktipriya96.files.wordpress.com/2017/03/screenshot-from-2017-03-13-120654.png)Exploitation vs Exploration:
 
 ![Screenshot from 2017-03-13 12:08:36](https://bhaktipriya96.files.wordpress.com/2017/03/screenshot-from-2017-03-13-120836.png)
+
 
 ## Results:
 
