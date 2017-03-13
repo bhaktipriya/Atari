@@ -28,4 +28,6 @@ During gameplay all the experiences <_ s, a, r, s’_ > are stored in a replay
 
 ## Results:
 
-https://www.youtube.com/watch?v=0KRVL-VkMGw https://www.youtube.com/watch?v=0-ATaiFjzi8 https://www.youtube.com/watch?v=48HNdmfGEjE
+https://www.youtube.com/watch?v=0KRVL-VkMGw 
+https://www.youtube.com/watch?v=0-ATaiFjzi8 
+https://www.youtube.com/watch?v=48HNdmfGEjE
